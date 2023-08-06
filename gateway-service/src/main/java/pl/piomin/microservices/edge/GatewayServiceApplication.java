@@ -2,10 +2,10 @@ package pl.piomin.microservices.edge;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@EnableZuulProxy
+@EnableEurekaClient
 public class GatewayServiceApplication {
 
     public static void main(String[] args) {
